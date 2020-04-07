@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Padink-consulting</title>
+    <link rel="icon" href="img/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Condiment|Roboto|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav id="logo" class="navbar navbar-expand-md navbar-light bg-nav">
+            <header class="container-lg container-full-width d-flex align-items-center"><a aria-current="page" class="navbar-brand" href="/"><svg class="nav-img" xmlns="http://www.w3.org/2000/svg" width="200" height="139.843" viewBox="0 0 75 29.843"><g id="Group_3" data-name="Group 3" transform="translate(-357 -461)"><rect id="Rectangle_1" data-name="Rectangle 1" width="68" height="16" transform="translate(364 466)" fill="none"></rect><path id="Path_1" data-name="Path 1" d="M0,0H75V29.843H0Z" transform="translate(357 461)" fill="none"></path><g id="Component_1_1" data-name="Component 1 – 1" transform="translate(368.622 467.798)"><path id="Path_13" data-name="Path 13" d="M.622,0V-5h.913a3.916,3.916,0,0,1,.795.058,1.229,1.229,0,0,1,.443.191,1.113,1.113,0,0,1,.366.468,1.631,1.631,0,0,1,.13.66,1.288,1.288,0,0,1-.4,1.048A1.96,1.96,0,0,1,1.6-2.246H1.077V0Zm.455-2.646h.311A2.03,2.03,0,0,0,2.5-2.856a.857.857,0,0,0,.285-.737A1.233,1.233,0,0,0,2.721-4a.991.991,0,0,0-.195-.333.719.719,0,0,0-.362-.212,3.374,3.374,0,0,0-.776-.062H1.077Zm4.307.561H7.127L6.273-4.262ZM4.106,0,6.3-5.2,8.409,0h-.5L7.274-1.7H5.23L4.567,0Zm6.368-.393h.639a4.791,4.791,0,0,0,1.1-.087,1.287,1.287,0,0,0,.55-.3,1.861,1.861,0,0,0,.475-.731,2.884,2.884,0,0,0,.161-1,2.9,2.9,0,0,0-.162-1.012,1.747,1.747,0,0,0-.48-.718,1.367,1.367,0,0,0-.584-.3,5.546,5.546,0,0,0-1.207-.089h-.492ZM10.019,0V-5H10.8a7.347,7.347,0,0,1,1.48.1,1.882,1.882,0,0,1,.752.352,2.109,2.109,0,0,1,.636.854,3.077,3.077,0,0,1,.219,1.2,3.09,3.09,0,0,1-.219,1.2,2,2,0,0,1-.629.839,2.018,2.018,0,0,1-.742.355A6.037,6.037,0,0,1,10.953,0h-.933Zm5.927,0V-5H16.4V0ZM27.9,0V-5h.455v2.345L30.616-5h.595L28.839-2.611,31.324,0h-.66L28.353-2.54V0Z" transform="translate(1.378 5.202)" fill="#fff"></path><path id="Path_12" data-name="Path 12" d="M.622,0V-5H3.1v.427H1.077v1.565H3.1v.427H1.077V-.427H3.1V0ZM5.264,0V-5.216L8.809-1.029V-5h.424V.147L5.692-4.047V0ZM15.632-3.746a2.071,2.071,0,0,0-.749-.714,2.055,2.055,0,0,0-1-.243,1.973,1.973,0,0,0-1.514.629,2.3,2.3,0,0,0-.584,1.63,2.291,2.291,0,0,0,.156.844,2.115,2.115,0,0,0,.453.7,2.011,2.011,0,0,0,.673.456,2.141,2.141,0,0,0,.817.152,1.92,1.92,0,0,0,1.369-.5,1.738,1.738,0,0,0,.542-1.3H14.066v-.393h2.225v.055a2.586,2.586,0,0,1-.653,1.873,2.381,2.381,0,0,1-1.8.677A2.453,2.453,0,0,1,12-.591a2.611,2.611,0,0,1-.7-1.9,2.916,2.916,0,0,1,.178-1.02,2.437,2.437,0,0,1,.513-.836,2.378,2.378,0,0,1,.819-.578,2.6,2.6,0,0,1,1.017-.191,2.862,2.862,0,0,1,1.306.275,1.932,1.932,0,0,1,.837.808ZM18.3,0V-5h.455V0ZM30.25,0V-5h2.478v.427H30.7v1.565h2.023v.427H30.7V-.427h2.023V0Zm4.642,0V-5h2.478v.427H35.347v1.565h2.023v.427H35.347V-.427h2.023V0Zm5.1-4.607v1.849h.458a1.447,1.447,0,0,0,.887-.2.843.843,0,0,0,.251-.692.914.914,0,0,0-.26-.735,1.373,1.373,0,0,0-.878-.219ZM42.574,0H42.02L40.263-2.386H39.99V0h-.455V-5h.919a1.866,1.866,0,0,1,1.219.338,1.26,1.26,0,0,1,.405,1.025,1.218,1.218,0,0,1-.347.919,1.318,1.318,0,0,1-.955.335ZM44.28,0V-5h.455V0Zm2.752,0V-5.216l3.544,4.187V-5H51V.147L47.459-4.047V0ZM57.4-3.746a2.071,2.071,0,0,0-.749-.714,2.055,2.055,0,0,0-1-.243,1.973,1.973,0,0,0-1.514.629,2.3,2.3,0,0,0-.584,1.63,2.291,2.291,0,0,0,.156.844,2.115,2.115,0,0,0,.453.7,2.011,2.011,0,0,0,.673.456,2.141,2.141,0,0,0,.817.152,1.92,1.92,0,0,0,1.369-.5,1.738,1.738,0,0,0,.542-1.3H55.834v-.393h2.225v.055a2.586,2.586,0,0,1-.653,1.873,2.381,2.381,0,0,1-1.8.677,2.453,2.453,0,0,1-1.842-.725,2.611,2.611,0,0,1-.7-1.9,2.916,2.916,0,0,1,.178-1.02,2.437,2.437,0,0,1,.513-.836,2.378,2.378,0,0,1,.819-.578,2.6,2.6,0,0,1,1.017-.191,2.862,2.862,0,0,1,1.306.275,1.932,1.932,0,0,1,.837.808Z" transform="translate(-0.622 12.202)" fill="#fff"></path>
+                <path id="Path_11" data-name="Path 11" d="M7.92-7.539,6.934.518,2.358-5.322,1.7,0H.586l.981-7.949,4.575,5.83.664-5.42Z" transform="translate(19.378 10.202)" fill="#fff"></path></g></g></svg></a>
+            </header>
+        </nav>
+
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="landing-text">
+            <h1>Consulting</h1>
+            <h6>Manpower Deputation for Engineering & IT Industry
+            </h6>
+        </div>
+    </header>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Manpower Deputation</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>IT Industries</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>SP3D Designers</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Porfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="img/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Web Development</h6>
+                    <h1>Blog Website</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Web Design</h6>
+                    <h1>Product Loyout</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="img/portitem2.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-aos="fade-right" data-aos-delay="1500">
+                <div class="portfolio-img has-margin-right">
+                    <img src="img/portitem3.jpeg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                    <h6>Web Design</h6>
+                    <h1>Product stetch</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and current jobs</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="2011 - Present">
+                        <h1>L&T</h1>
+                        <p>
+
+                            Larsen & Toubro is a major technology, engineering, construction, manufacturing and financial services conglomerate, with global operations.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2008 - 2011">
+                        <h1>FLSmidth</h1>
+                        <p>
+                            As the leading supplier of production facilities, equipment and service solutions to the cement and mining industries
+                        </p>
+                    </li>
+                    <li class="date" data-date="2002 - 2007">
+                        <h1>ValDel group</h1>
+                        <p>
+                            Valdel has today emerged as a leading engineering and design player in the Oil & Gas and the Real Estate sectors
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="img/profile.jpg" alt="">
+            </div>
+
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum porro laboriosam natus unde recusandae molestias exercitationem minima repudiandae veritatis vitae et, sequi, vero, ut obcaecati iusto voluptas maxime odit minus! Facere, blanditiis!
+                    Distinctio quibusdam sed voluptates sunt voluptatem eius expedita hic aspernatur officiis ut magni, at delectus ratione obcaecati. Provident!
+                    <a href="#" class="icon-link">
+                        <a></a><i class="fab fa-facebook-square"></i>
+                    </a>
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-dribbble-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Enter your email..." required>
+                <label for="service">Services:</label>
+                <select name="services" id="service">
+                    <option value="">Web Desing</option>
+                    <option value="">Web Development</option>
+                    <option value="">Web Desing/Development</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; padink-2020</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
